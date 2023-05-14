@@ -7,6 +7,8 @@ A lot of my code has restrictions that are self-imposed, for no reason other tha
 - No math.h from the C standard library (nor any external math library whatsoever).
 - For graphics, I prefer software rendering just like ye olden days of yore.
 
+See [LMP88959](https://github.com/LMP88959) for another programmer who works under similar constraints.
+
 All of these constraints are rooted in the desire to *deeply* understand *every* piece of code I write. For example, by forbidding the use of any math library I am forced to learn about many approximation techniques that I would otherwise just take for granted.
 
 I'm not *too* strict about always adhering to all of the above constraints. Often I start with whatever can be written quickest, and then later go back and make it conform to my constraints. 
